@@ -5,7 +5,7 @@ INNER JOIN Utilisateur u ON a.id_utilisateur = u.id;
 SELECT a.titre, u.nom
 FROM Article a
 INNER JOIN Utilisateur u ON a.id_utilisateur = u.id
-WHERE u.nom = 'Alice';
+WHERE u.nom = 'Basma';
 
 SELECT a.titre, u.nom
 FROM Article a
