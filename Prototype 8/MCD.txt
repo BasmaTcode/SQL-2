@@ -1,0 +1,34 @@
+UTILISATEUR : 
+
+id_utilisateur
+nom
+email
+
+
+ARTICLE : 
+
+id_article 
+titre
+contenu
+date_pub
+id_utilisateur
+
+COMMENTAIRE : 
+
+id_commentaire 
+contenu
+date_commentaire
+id_article
+
+
+Relations et cardinalités :
+
+Utilisateur — écrit — Article
+
+Cardinalité : Utilisateur (1,n) — Article (1,1)
+
+
+
+Article — reçoit — Commentaire
+
+Cardinalité : Article (1,n) — Commentaire (1,1)
