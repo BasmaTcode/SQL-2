@@ -21,7 +21,7 @@ Question métier (3) :
 
 Quels utilisateurs n’ont écrit aucun article ?
 
--- Question 6 : Utilisateurs sans article
+-- Question 3 : Utilisateurs sans article
 
 SELECT U.id, U.nom
 FROM Utilisateur U
